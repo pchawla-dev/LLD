@@ -1,5 +1,11 @@
 package oops.abstractclasses;
 
-public class Instructor {
+public abstract class Instructor extends User{
+
+	@Override
+	public String getRole() {
+		
+		return "INSTRUCTOR";
+	}
 
 }
